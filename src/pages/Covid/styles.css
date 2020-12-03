@@ -1,0 +1,139 @@
+.covid {
+  min-height: 100vh;
+  display: flex;
+  background: #001;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.covid h1 {
+  color: red;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.covid .timeline {
+  width: 85%;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.covid .content {
+  background: #444;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+}
+
+.covid .content h2 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.covid .content a {
+  color: rgb(0, 0, 0);
+  background: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.covid .content a:hover {
+  color: rgb(255, 255, 255);
+  background: #e71d38;
+  bottom: 10px;
+  right: 10px;
+  transition: 0.5s;
+}
+
+.covid .content .time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: .5;
+}
+
+
+
+@media(min-width: 700px) {
+  .covid .content {
+    width: 50%;
+  }
+
+  .covid .content:nth-child(odd) {
+    float: left;
+    clear: both;
+    transform: translateX(-65px);
+  }
+
+  .covid .content:nth-child(even) {
+    float: right;
+    clear: both;
+    transform: translateX(65px);
+  }
+
+  .covid .timeline::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .covid .timeline:last-child {
+    border-bottom: 1px solid #fff;
+  }
+
+  .covid .pointer-right::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 46%;
+    right: -33px;
+    border-radius: 50%;
+  }
+
+  .covid .pointer-right::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #444;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    transform: translateY(-50%) rotate(48deg);
+  }
+
+  .covid .pointer-left::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 46%;
+    left: -33px;
+    border-radius: 50%;
+  }
+
+
+  .covid .pointer-left::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #444;
+    position: absolute;
+    top: 50%;
+    left: -8px;
+    transform: translateY(-50%) rotate(48deg);
+  }
+
+}

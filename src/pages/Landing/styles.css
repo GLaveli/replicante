@@ -1,0 +1,94 @@
+#page-landing {
+  width: 100vw;
+  height: 100vh;
+  min-width: 600px;
+  background: linear-gradient(329.54deg, #000000 40%, #2eaddf 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page-landing .content-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  max-height: 880px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background: url(../../images/eye.png) no-repeat 50% 20%;
+}
+
+#page-landing .content-wrapper main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 180px;
+  margin: auto;
+}
+
+#page-landing .content-wrapper main h1 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+#page-landing .content-wrapper main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.content-wrapper .enter-app {
+  position: absolute;
+  top: 430px;
+  left: 480px;
+  width: 140px;
+  height: 30px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+}
+
+.content-wrapper .enter-app:hover {
+  transition: .5s;
+}
+
+.content-wrapper .white-font {
+  color: white;
+}
+
+.content-wrapper .red-font {
+  color: #c51616;
+}
+
+
+.content-wrapper .pill {
+  font-size: 45px;
+  color: #1662c5;
+  transition: .3s;
+}
+
+.content-wrapper .pill:hover {
+  font-size: 55px;
+  color: #c51616;
+  transition: .3s;
+}
+
+@media screen and (max-width: 1100px) {
+  .content-wrapper .enter-app {
+    left: 43%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content-wrapper .enter-app {
+    left: 40%;
+  }
+}
