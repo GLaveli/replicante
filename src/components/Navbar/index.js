@@ -31,36 +31,6 @@ function Navbar() {
 
           <div className="itemContainer">
             <Link to="/covid" ><i className="fas fa-biohazard"></i><span>Covid-19</span></Link>
-            <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-desktop"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-cogs"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-table"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-th"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-info-circle"></i><span>Menu 01</span></a>
-            <a href=" " ><i className="fas fa-sliders-h"></i><span>Menu 01</span></a>
-
           </div>
         </div>
       </div>
